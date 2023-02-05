@@ -1,80 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Vital</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Vital, cv, resume">
+    <meta name="description" content="сайт-резюме">
+    <link rel="stylesheet" href="styles.css">
+    <title>Vital Resume</title>
 </head>
 <body>
-	<table cellspacing="15">
-		<tr>
-			<td><img src="https://sun9-west.userapi.com/sun9-2/s/v1/ig2/-T8TTUVJm5p0mLQv7LmFgv1BPJTwiDaETsbgMocq5n5DRSWSRrqk6zjp3C8_Dlz5LE8DmU5MVwT8iEokkkn5-6B9.jpg?size=1280x854&quality=95&type=album" alt="моя фотка" width="200"></td>
-			<td>	<h1>Витал Сулейменов</h1>
-<p> <em>Я распиздяй, мезантроп, холерик, алкоголик </em></p>
-<p>Люблю валяться на кроватке и скафнить</p></td>
-		</tr>
-	</table>
 
+    <div class="container">
+  <div class="info">
+    <img src="avatar.jpg" alt="Vital" class="avatar">
+<div class="info-text">
+<h1>Витал Сулейменов</h1>
 
+<p> <strong>Маркетолог</strong>, видеомейкер, почти дизайнер, Смм специалист, диджей, <strong>обманщик</strong></p>
+<p>Я люблю кушать, спать, <em>играца в компуктер</em> </p>
 
-<hr>
+<h4>Список социальных сетей</h4>
+<a href="https://instagram.com/akela_rl" target="_blank" >Instagram</a>
+|
+<a href="https://vk.com/akela_rl" target="_blank" >VK</a>
+|
+<a href="" target="_blank" >Telegram</a>
+</div>
+</div>
 
-<h2>Мои социальные сети</h2>
-<ul type="square">
-	<li> <a href="https://instagram.com/akela_rl" target="_blank">Instagram</a></li>
-	<li><a href="https://vk.com/akela_rl" target="_blank">VK</a></li>
-</ul>
-<hr>
-<h2>Мои хобби</h2>
-<ol>
-	<li>СПАТЬ</li>
-	<li>Жрать</li>
-	<li>Какать</li>
+<div class="card bg-red">
+<h2>Мои Хобби</h2>
+<ol class="list">
+    <li>Спорт</li>
+    <li>Музыка</li>
+    <li>Кинчики</li>
+    <li>Игрульки</li>
 </ol>
-<hr>
-<h2>Опыт Работы</h2>
-<table>
-	<thead></thead>
-	<tr>
-		<th>Company</th>
-		<th>Должность</th>
-		<th>Год</th>
-	</tr>
+</div>
 
-	<tbody></tbody>
-		<tr>
-		<td>ASCORP</td>
-		<td>SMM</td>
-		<td>2020-2022</td>
-	</tr>
-	<tr>
-		<td>4tale</td>
-		<td>Digital Marketing</td>
-		<td>2021-2022</td>
-	</tr>
+<div class="card bg-yellow">
+<h2>Опыт работы</h2>
 
-	
-
+<table class="table">
+    <!-- <thead>
+        <tr>
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Год</th>
+        </tr>
+    </thead> -->
+    <tbody>
+        <tr>
+            <td>Ascorp BB</td>
+            <td>Marketolog</td>
+            <td>2020-2023</td>
+        </tr>
+        <tr>
+            <td>4tale Prod</td>
+            <td>Marketolog</td>
+            <td>2021-2022</td>
+        </tr>
+        <tr>
+            <td>Asman</td>
+            <td>SMM</td>
+            <td>2015-2020</td>
+        </tr>
+    </tbody>
 </table>
-<tr></tr>
-<h2>Мой сайт</h2>
-<a href="news.html" target="_blank">Посмотреть</a>
-<hr>
+</div>
 
-<h2>Связаться со мной</h2>
-<form action="/">
-	<label for="name">Ваше Имя</label>
-	<input type="text" id="name" placeholder="Введите имя"> <br>
+<div class="card bg-green">
+</table>
 
-		<label for="email">Ваш email</label>
-	<input type="email" id="email" placeholder="Email"> <br>
-<label for="text">Ваше сообщение</label> <br>
-<textarea id="text" rows="2" cols="15"></textarea>
-	<input type="submit" value="Связаться">
 
+
+<form action="/" class="form">
+    <h2>Связаться со мной</h2>
+    <div class="form-row">
+  <div class="form-group">
+    <label for="name">Ваше имя:</label>
+    <input type="text" id="name" placeholder="Введите имя">
+  </div>
+
+  <div class="form-group">
+    <label for="email">Ваш email:</label>
+    <input type="email" id="email" placeholder="Введите email">
+  </div>
+</div>
+
+  <div class="form-group">
+    <label for="message">Ваше сообщение:</label>
+ 
+    <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+  </div>
+
+  <input class="btn" type="submit" value="Отправить!">
 </form>
-
-<hr>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
 </body>
 </html>
